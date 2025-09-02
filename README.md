@@ -1,4 +1,4 @@
-# 🎨 CSS Animations & Components — Project ARCH
+# **🎨 CSS Animations & Components**
 
 Welcome! 👋  
 This repository is part of a larger personal project called **ARCH**, focused entirely on mastering advanced CSS animation techniques and component-based design.
