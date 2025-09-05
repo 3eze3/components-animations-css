@@ -9,7 +9,7 @@ The only thing you really need to know is:
 ---
 
 ## 🎯 Project Objectives
-
+    
 This repository exists for two main reasons:
 
 - 💡 To push my **CSS skills to an advanced level**, exploring both basic and complex animation techniques.
