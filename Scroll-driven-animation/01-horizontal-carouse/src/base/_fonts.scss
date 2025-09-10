@@ -1,0 +1,18 @@
+@use "../abstract/variables" as v;
+body {
+  min-height: 100dvh;
+  hyphens: manual;
+  font-smooth: always;
+  font-family: v.$libertnusKeyboard-rg;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-block: 4rem;
+}
+
+h1 {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}

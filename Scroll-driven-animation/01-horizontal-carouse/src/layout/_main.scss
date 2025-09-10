@@ -1,0 +1,17 @@
+.main {
+  max-width: 1000px;
+  background-color: gray;
+  margin: 0 auto;
+  padding: 2rem;
+
+  &__title {
+    font-size: 4em;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  &__info {
+    font-size: 1.5em;
+    line-height: 1.7em;
+  }
+}

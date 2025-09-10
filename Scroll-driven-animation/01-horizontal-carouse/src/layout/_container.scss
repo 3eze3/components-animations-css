@@ -1,0 +1,60 @@
+.container {
+  outline: solid red 1px;
+  margin: auto;
+  width: 50rem;
+  height: 35rem;
+  padding: 1rem 2rem;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 4rem;
+  &__carusel {
+    outline: solid green 3px;
+    timeline-scope: --gallery-one;
+    position: relative;
+  }
+  &__progress-1 {
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(
+      to left,
+      rgba(59, 59, 59, 0.157),
+      rgba(54, 60, 56, 0.225),
+      rgba(21, 21, 0, 0.168)
+    );
+    position: absolute;
+    height: 100%;
+    z-index: 10;
+    pointer-events: none;
+    // width: calc(100% / 3);
+    width: 0%;
+    animation: grow-progress linear forwards;
+    animation-timeline: --gallery-one;
+  }
+  &__images {
+    display: flex;
+    flex: 0 0 100%;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    // Ojo....
+    scrollbar-width: none;
+    scroll-timeline: --gallery-one inline;
+  }
+
+  &__img {
+    scroll-snap-align: center;
+  }
+
+}
+@keyframes grow-progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
